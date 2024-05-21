@@ -1,4 +1,3 @@
-```lua
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local ServersStack = ReplicatedStorage.ServersStack
@@ -29,4 +28,3 @@ MSGServerList()
 
 ServersStack.ChildAdded:Connect(MSGServerList)
 ServersStack.ChildRemoved:Connect(MSGServerList)
-```
